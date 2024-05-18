@@ -42,3 +42,71 @@ export function KartaakItems() {
     <AnimatedTooltip items={kartaakItems} />
   </div>
 }
+
+export function FekroonehItems() {
+  const fekroonehItems = [
+    {
+      id: 1,
+      name: "HTML",
+      image: html,
+    },
+    {
+      id: 2,
+      name: "CSS",
+      image: css,
+    },
+    {
+      id: 3,
+      name: "typescript",
+      image: ts,
+    },
+    {
+      id: 4,
+      name: "react",
+      image: react,
+    },
+    {
+      id: 5,
+      name: "Next.js",
+      image: next,
+    },
+  ]
+
+  return <div className="flex flex-row items-center justify-center my-4 w-fit">
+    <AnimatedTooltip items={fekroonehItems} />
+  </div>
+}
+
+export function MattersItems() {
+  const mattersItems = [
+    {
+      id: 1,
+      name: "HTML",
+      image: html,
+    },
+    {
+      id: 2,
+      name: "CSS",
+      image: css,
+    },
+    {
+      id: 3,
+      name: "typescript",
+      image: ts,
+    },
+    {
+      id: 4,
+      name: "react",
+      image: react,
+    },
+    {
+      id: 5,
+      name: "PWA",
+      image: pwa,
+    },
+  ]
+
+  return <div className="flex flex-row items-center justify-center my-4 w-fit">
+    <AnimatedTooltip items={mattersItems} />
+  </div>
+}
