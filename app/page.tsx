@@ -15,7 +15,7 @@ export default function Home() {
           <p
             className="mb-2 font-extrabold text-5xl  ">Nice to meet you! 👋
           </p>
-          <p className="mb-2 font-extrabold text-5xl bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">{"I'm Navid"}</p>
+          <p className="mb-2 font-extrabold text-5xl bg-linear-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">{"I'm Navid"}</p>
           <p className="mb-2 font-extrabold text-2xl underline underline-offset-8 decoration-green-500">Front-End Developer</p>
         </div>
 
