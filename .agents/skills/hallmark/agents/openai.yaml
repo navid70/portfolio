@@ -1,0 +1,8 @@
+interface:
+  display_name: Hallmark
+  short_description: Design skill. Pages that look made, not generated.
+  default_prompt: "$hallmark design a page for this project"
+
+policy:
+  allow_implicit_invocation: true
+
